@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="generated-api" />
+        <module name="generated-common" />
+        <module name="generated-dao" />
+        <module name="generated-reference" />
+        <module name="generated-web" />
+        <module name="generated-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="generated" target="1.8" />
+      <module name="generated-api" target="1.8" />
+      <module name="generated-common" target="1.8" />
+      <module name="generated-dao" target="1.8" />
+      <module name="generated-reference" target="1.8" />
+      <module name="generated-service" target="1.8" />
+      <module name="generated-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="generated-api" options="-parameters" />
+      <module name="generated-common" options="-parameters" />
+      <module name="generated-dao" options="-parameters" />
+      <module name="generated-reference" options="-parameters" />
+      <module name="generated-service" options="-parameters" />
+      <module name="generated-web" options="-parameters" />
+    </option>
+  </component>
+</project>

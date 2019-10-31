@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/generated.iml" filepath="$PROJECT_DIR$/generated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generated-api/generated-api.iml" filepath="$PROJECT_DIR$/generated-api/generated-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generated-common/generated-common.iml" filepath="$PROJECT_DIR$/generated-common/generated-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generated-dao/generated-dao.iml" filepath="$PROJECT_DIR$/generated-dao/generated-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generated-reference/generated-reference.iml" filepath="$PROJECT_DIR$/generated-reference/generated-reference.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generated-service/generated-service.iml" filepath="$PROJECT_DIR$/generated-service/generated-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generated-web/generated-web.iml" filepath="$PROJECT_DIR$/generated-web/generated-web.iml" />
+    </modules>
+  </component>
+</project>
